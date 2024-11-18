@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="top-W">
       <div className="content">
         <h1 className="contact-title">Get in Touch</h1>
-        <p className="contact-subtitle">We'd love to hear from you!</p> 
+        <p className="contact-subtitle">We would love to hear from you!</p> 
       </div>
       
       <div className="contact-form-container">
