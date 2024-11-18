@@ -1,0 +1,99 @@
+body {
+  max-height: min-content;
+}
+
+.top-h {
+  background:url(../../public/images/bg-img.png) no-repeat center center fixed; /* Corrected URL */
+  background-size: cover; /* Ensure the background covers the entire section */
+  padding: 400px 50px;  
+  text-align: center; 
+  height: 100vh; /* Set height to full viewport height */
+}
+
+
+.shop-button {
+  margin-top: auto;
+  background-color: rgb(3, 217, 255);
+  color: black;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+  font-weight: 500;
+}
+
+.shop-button:hover {
+  background-color: #00e1ff;
+  transform: scale(1.05);
+}
+
+.product-container > h1 {
+  margin-top: 800px;
+  color: purple;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .top-h {
+      padding: 300px 30px; /* Reduce padding on medium screens */
+  }
+
+  .shop-button {
+      padding: 12px 40px; /* Adjust button padding */
+  }
+
+  .product-container > h1 {
+      margin-top: 600px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .top-h {
+      padding: 200px 20px; /* Further reduce padding on smaller screens */
+  }
+
+  .shop-button {
+      padding: 10px 30px; /* Further adjust button padding */
+      font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .product-container > h1 {
+      margin-top: 400px; /* Further adjust margin */
+      font-size: 2rem; /* Responsive font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .top-h {
+      padding: 150px 10px; /* Minimal padding for very small screens */
+  }
+
+  .shop-button {
+      padding: 8px 20px; /* Small padding for mobile */
+      font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .product-container > h1 {
+      margin-top: 300px; /* Adjust margin for small devices */
+      font-size: 1.8rem; /* Smaller font size */
+  }
+}
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .top-h {
+      padding: 300px 30px; /* Reduce padding for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .top-h {
+      padding: 200px 20px; /* Further reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .top-h {
+      padding: 150px 10px; /* Minimal padding for very small screens */
+  }
+}

@@ -1,0 +1,72 @@
+.footer {
+    background-color:#333 ; /* Dark background */
+    color: black; /* White text */
+    text-align: center; /* Center text */
+    padding: 20px; /* Space around content */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for the content */
+    margin: 0 auto; /* Center the content */
+}
+
+.footer-links {
+    display: flex; /* Use flexbox for links */
+    justify-content: center; /* Center the links */
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Space between links */
+    margin-bottom: 20px; /* Space below links */
+}
+
+.footer-links a {
+    color: black; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color change */
+}
+
+.footer-links a:hover {
+    color:#16a085 ; /* Change color on hover */
+}
+
+.subscribe-section {
+    margin-bottom: 20px; /* Space below subscription section */
+}
+
+.subscribe-section input {
+    padding: 10px; /* Padding for input */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.subscribe-section button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: black; /* Button color */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.subscribe-section button:hover {
+    background-color: #16a085; /* Darker shade on hover */
+}
+
+.social-links {
+    margin-bottom: 10px; /* Space below social links */
+}
+
+.social-links a {
+    color: #fff; /* White text for social links */
+    text-decoration: none; /* Remove underline */
+}
+.footer-content p{
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .footer-links {
+        flex-direction: column; /* Stack links vertically on small screens */
+    }
+}

@@ -1,0 +1,89 @@
+body{
+    max-height:min-content ;
+    background-color:black;   
+  }
+
+
+
+/* Top section styles */
+.top-W{
+    padding: 40px 20px; /* Space around the top section */
+    text-align: center; /* Center align text */
+    background:url(../../public/images/contact-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Title and subtitle styles */
+.contact-title {
+    font-size: 2.5rem; /* Large title size */
+    color: #fff; /* White text color */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.contact-subtitle {
+    font-size: 1.2rem; /* Subtitle size */
+    color: #fff; /* Light gray text color */
+    margin-bottom: 20px; /* Space below subtitle */
+}
+
+/* Contact form container styles */
+.contact-form-container {
+    max-width: 600px; /* Maximum width for the contact form */
+    margin: 40px auto; /* Center the form */
+    background-color:black; /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+/* Form styles */
+.contact-form {
+    display: flex; /* Flexbox layout for the form */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Form label styles */
+.form-label {
+    font-size: 1rem; /* Label size */
+    color: #00e1ff; /* Dark text color */
+    margin-bottom: 5px; /* Space below label */
+    display: block; /* Block display for proper spacing */
+}
+
+/* Input and textarea styles */
+.form-input,
+.form-textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid black;
+    background-color:#333;
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below inputs */
+    font-size: 1rem; /* Font size for inputs */
+}
+
+/* Textarea specific styles */
+.form-textarea {
+    height: 100px; /* Fixed height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button styles */
+.add-to-cart {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Padding for button */
+    background-color: #00e1ff; /* Green button color */
+    color: rgb(0, 0, 0); /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1.1rem; /* Button font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+.add-to-cart:hover {
+    
+    transform: scale(1.05); /* Slightly enlarge button */
+}
+
